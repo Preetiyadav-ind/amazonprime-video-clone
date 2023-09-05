@@ -1,0 +1,38 @@
+/* Footer styling */
+.footer {
+   width: 100%;
+    color: #a9a9a9;
+    padding: 20px 0;
+    
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 1200%;
+  margin: 0 auto;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+  
+  }
+  
+  .footer-content p {
+    font-size: 120%;
+  
+  }
+  
+  .footer-content a {
+    color: #97e5fb;
+    text-decoration: none;
+    font-size: 120%;
+    padding-right: 1%;
+ 
+
+  }
+.footer-logo img{
+    width: 7%;
+}
+  
+  

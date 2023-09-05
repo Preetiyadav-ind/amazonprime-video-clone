@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
+import HeaderPV from './components/Header';
+import Logobox from './components/Logobox';
+import MovieGrid from './data/MovieGride';
+import Footer from './components/Footer';
+
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <HeaderPV/>
+         
+         <div>
+        <Logobox/>
+         </div>
+        
+         <div  className="app__movieContainer">
+         <MovieGrid/>
+         </div>
+         <div className='app-container'>
+         <Footer/>
+         </div>
+       
+        {/* Add more MovieCard components */}
+    
     </div>
   );
 }
